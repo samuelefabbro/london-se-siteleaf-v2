@@ -1,7 +1,7 @@
 ---
 title: London SE
 url: http://london-se-v2.siteleaf.net
-timezone: UTC
+timezone: Europe/London
 collections:
   posts:
     title: Posts
