@@ -1,0 +1,255 @@
+{% include 'head-home' %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@london_se">
+  <meta name="twitter:creator" content="@brendangatens">
+  <meta name="twitter:title" content="London SE: A South East London Guide">
+  <meta name="twitter:description" content="{{ body | strip_html }}">
+  <meta name="twitter:image:src" content="http://www.london-se.com{% for post in site.pages['spots'].posts limit:1 %}{{post.meta['spotMainPhoto']}}{% endfor %}">
+</head>
+
+<body class="section home">
+  <div class="site-wrapper">
+    <div class="home-body">
+
+      <header class="home-header-container group">
+        <div class="home-logo">
+          <h1>London SE</h1>
+        </div>
+        <nav>
+          {% for page in site.pages %}
+          {% unless page.home? %}
+          <a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title | smartypants}}</a>
+          {% endunless %}
+          {% endfor %}
+          <div class="social-links">
+            <a href="https://www.facebook.com/London.SE.Guide" class="ss-icon ss-social-circle facebook">Facebook</a>
+            <a href="http://www.twitter.com/london_se" class="ss-icon ss-social-circle twitter">Twitter</a>
+            <a href="http://instagram.com/london_se" class="ss-icon ss-social-circle instagram">Instagram</a>
+          </div>
+        </nav>
+        <h2><span>London SE is a little guide to finding </span><span>the best spots in London’s unsung </span><span>south east corner.</span></h2>
+      </header> <!-- home-header-container -->
+
+      <section class="spots-module home-module">
+        <div class="home-thumb-wrapper group">
+          <div class="clearfix">
+
+            {% for post in site.pages['spots'].posts limit:1 %}
+            {% if forloop.first %}
+            <div class="thumb">
+              <a href="{{post.url}}">
+                <img src="{{post.meta['spotMainPhoto']}}" alt="{{post.title}}" />
+                <div class="thumb-details">
+                  <em>{{post.taxonomy.description}}</em>
+                  <h6>{{post.title}}</h6>
+                  <b>{{post.taxonomy.location}}</b>
+                </div>
+              </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+            {% for post in site.pages['spots'].posts limit:2 offset:1 %}
+            <div class="thumb">
+              <a href="{{post.url}}">
+                <img src="{{post.meta['spotThumb']}}" alt="{{post.title}}" />
+                <div class="thumb-details">
+                  <em>{{post.taxonomy.description}}</em>
+                  <h6>{{post.title}}</h6>
+                  <b>{{post.taxonomy.location}}</b>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+
+          </div>
+          <a class="home-link" href="/spots">All of our favourite spots &#8594;</a>
+        </div>
+      </section> <!-- spots-module -->
+
+      <section class="home-module map-module">
+
+        <h3 class="hh-maps">Maps</h3>
+
+          <div class="home-thumb-wrapper">
+
+            <a href="/maps/favourite-spots/" class="thumb-container map-fav">
+              <div class="thumb-border">
+                <div class="thumb-details-border">
+                  <div class="thumb-details">
+                    <em>An ever-growing map of our</em>
+                    <h4>Favourite Spots</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="/maps/sunday-roast-dinners/" class="thumb-container map-roast">
+              <div class="thumb-border">
+                <div class="thumb-details-border">
+                  <div class="thumb-details">
+                    <em>South East London's best</em>
+                    <h4>Sunday Roasts</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="/maps/pizza-map/" class="thumb-container map-pizza">
+              <div class="thumb-border">
+                <div class="thumb-details-border">
+                  <div class="thumb-details">
+                    <em>The South East London</em>
+                    <h4>Pizza Map</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class="home-link" href="/maps">Our maps section &#8594;</a>
+
+        </div>
+
+      </section>
+
+      <section class="home-module exhibitions-module">
+        <h3 class="hh-whats-on">What's on</h3>
+
+          <div class="home-thumb-wrapper">
+            {% assign runningTotal = 0 %}
+
+            {% for post in site.pages.whats-on.posts reversed %}
+
+              {% if post.date > site.date %}
+                {% assign runningTotal = runningTotal | plus: 1 %}
+                <div class="thumb">
+                  <a href="{{post.url}}">
+                    <p>{{post.meta['Time and Date']}}</p>
+                    <h6>{{post.taxonomy.Neighbourhood}}</h6>
+                    <img src="{{post.meta['Thumbnail Image']}}" alt="{{post.title}}" />
+                    <h4>{{post.title}}</h4>
+                    <h5>{{post.meta['Venue']}}</h5>
+                    <i>i</i>
+                  </a>
+                </div>
+              {% endif %}
+
+              {% if runningTotal >= 3 %}
+                {% break %}
+              {% endif %}
+
+            {% endfor %}
+
+            <a class="home-link" href="/whats-on">Full listings &#8594;</a>
+          </div>
+
+      </section>
+
+      <section class="home-module makers-module">
+
+        <h3 class="hh-makers">Made in SE</h3>
+
+        <div class="makers-home-wrapper">
+
+          {% for post in site.pages['makers'].posts limit:3 %}
+
+            <div class="masonry-brick">
+              <div class="makers-thumb">
+                <a href="{{post.url}}">
+                  <img src="{{post.meta['Thumbnail']}}"/>
+                  <h4>{{post.title}}</h4>
+                  <h5>{{post.meta['Type']}}</h5>
+                </a>
+              </div>
+            </div>
+
+          {% endfor %}
+
+        </div>
+
+        <a class="home-link" href="/makers">See all makers &#8594;</a>
+
+      </section>
+
+      <section class="home-module newsletter-module">
+
+        <h3 class="hh-newsletter">Newsletter</h3>
+
+        <div class="main-wrapper">
+
+          <p>Sign up to our quarterly newsletter. You’ll get SE news, a list of things to see and do, alongside London SE announcements – all straight into your inbox.</p>
+
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+          <form action="http://londonse.us7.list-manage.com/subscribe/post?u=4985625997c4fb408432d7010&amp;id=d39c3d6fa5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+          <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
+          </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>	<div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </form>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- home-body -->
+
+    <div class="home-aside">
+
+      <div class="owl-carousel">
+
+        {% for post in posts limit:2 %}
+        <a class="carousel-link{% if forloop.first %} first{% endif %}" href="{{post.meta.Link}}">
+          <div class="carousel-item" style="background-image:url({{post.meta['Background Image']}});">
+
+            <div class="listing-overlay"></div>
+
+            <div class="carousel-exhibition">
+              <p>{{post.meta['Subtitle']}}</p>
+              <h4>{{post.title}}</h4>
+              <h5>{{post.meta['Venue']}}</h5>
+            </div>
+
+          </div>
+        </a>
+        {% endfor %}
+
+      </div> <!-- home-slideshow -->
+
+    </div>
+
+    <div class="home-footer">
+
+      {% include 'footer' %}
+
+    </div>
+
+  </div> <!-- site-wrapper -->
+
+  {% include 'scripts' %}
+  <script src="/js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel({
+        items:1,
+        nav:true,
+        navText:["&#8592;","&#8594;"],
+        loop:true,
+        dots:false,
+        mouseDrag:false
+      });
+
+      var navChildren = $(".owl-nav").children();
+
+      $(navChildren).click(function() {
+        $(".owl-nav").toggleClass( "blue" );
+        $(".owl-carousel .listing-overlay").toggleClass( "blue" );
+      });
+    });
+  </script>
+
+</body>
