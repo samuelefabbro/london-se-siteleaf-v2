@@ -1,30 +1,12 @@
 ---
 title: The Pelton Arms
-date: 2015-11-15 17:26:00 Z
-spotmainphoto: "/uploads/pelton-arms-00.jpg"
-morephotos1: "/uploads/pelton-arms-01.jpg"
-morephotos2: "/uploads/pelton-arms-02.jpg"
+date: 2015-11-15 17:26:00 +00:00
 morephotos3: "/uploads/pelton-arms-03.jpg"
 morephotos4: "/uploads/pelton-arms-04.jpg"
-morephotos5: "/uploads/pelton-arms-05.jpg"
-morephotos6: "/uploads/pelton-arms-06.jpg"
-morephotos7: "/uploads/pelton-arms-07.jpg"
-morephotos8: 
-spotmap: "/js/spot-maps/map-pelton-arms.js"
-street-address: 23-25 Pelton Road
-locality: Greenwich
-postal-code: SE10 9PQ
 particulars_open: |-
   Mon to Thu: 12:00 – 24:00<br>
   Fri to Sat: 12:00 – 01:00<br>
   Sun: 12:00 – 23:00
-particulars_rail: |-
-  Maze Hill ( 0.4mi )<br>
-  Cutty Sark ( 0.8mi )<br>
-  Westcombe Park ( 0.8mi )<br>
-  North Greenwich (  1.3mi )
-photoset: setTwo
-spotthumb: "/uploads/pelton-arms-00-thumb.jpg"
 aroundone: |-
   <a href="/spots/the-big-red/">
     <img src="/uploads/big-red-pizza-00-thumb.jpg"/>
@@ -34,6 +16,19 @@ aroundone: |-
       <b>Deptford</b>
     </div>
   </a>
+locality: Greenwich
+partlink_more info_peltonarms.com: http://www.peltonarms.com/
+spotmainphoto: "/uploads/pelton-arms-00.jpg"
+morephotos2: "/uploads/pelton-arms-02.jpg"
+morephotos5: "/uploads/pelton-arms-05.jpg"
+morephotos6: "/uploads/pelton-arms-06.jpg"
+morephotos8: 
+particulars_rail: |-
+  Maze Hill ( 0.4mi )<br>
+  Cutty Sark ( 0.8mi )<br>
+  Westcombe Park ( 0.8mi )<br>
+  North Greenwich (  1.3mi )
+morephotos7: "/uploads/pelton-arms-07.jpg"
 aroundtwo: |-
   <a href="/spots/royal-albert/">
     <img src="/uploads/royal-albert-00-thumb.jpg"/>
@@ -43,6 +38,10 @@ aroundtwo: |-
       <b>Deptford</b>
     </div>
   </a>
+Location:
+- Greenwich
+Description:
+- Pub
 aroundthree: |-
   <a href="/spots/maddys-fish-bar/">
     <img src="/uploads/maddys-fish-bar-00-thumb.jpg"/>
@@ -52,6 +51,12 @@ aroundthree: |-
       <b>New Cross</b>
     </div>
   </a>
+street-address: 23-25 Pelton Road
+spotmap: "/js/spot-maps/map-pelton-arms.js"
+morephotos1: "/uploads/pelton-arms-01.jpg"
+spotthumb: "/uploads/pelton-arms-00-thumb.jpg"
+Type:
+- Food & Drink
 aroundfour: |-
   <a href="/spots/brockley-market">
     <img src="/uploads/brockley-market-00-thumb.jpg"/>
@@ -61,13 +66,8 @@ aroundfour: |-
       <b>Brockley</b>
     </div>
   </a>
-partlink_more info_peltonarms.com: http://www.peltonarms.com/
-Location:
-- Greenwich
-Description:
-- Pub
-Type:
-- Food & Drink
+postal-code: SE10 9PQ
+photoset: setTwo
 ---
 
 Hidden from the swathes of tourists in Greenwich, The Pelton Arms is tucked away on a quiet street, and just a short walk from the river. This attractive Victorian corner pub is the perfect retreat from the crowds and is renowned for its friendly atmosphere and a loyal set of locals.
