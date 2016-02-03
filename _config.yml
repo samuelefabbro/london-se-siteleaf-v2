@@ -1,34 +1,11 @@
 ---
 title: London SE
-url: http://london-se.com
-timezone: London
-permalink: pretty
+url: http://london-se-v2.siteleaf.net
+timezone: Europe/London
 collections:
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
-  home:
-    output: true
-  maps:
-    output: true
-  whats-on:
-    output: true
-  makers:
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/spots/:title/"
-markdown: redcarpet
-redcarpet:
-  extensions:
-  - autolink
-  - fenced_code_blocks
-  - lax_spacing
-  - strikethrough
-  - superscript
-  - tables
-  - footnotes
-  - highlight
