@@ -1,0 +1,77 @@
+---
+title: Lerryn's
+date: 2015-11-08 16:09:00 Z
+spotmainphoto: "/uploads/lerryns-peckham-00b.jpg"
+morephotos1: "/uploads/lerryns-peckham-01.jpg"
+morephotos2: "/uploads/lerryns-peckham-02.jpg"
+morephotos3: "/uploads/lerryns-peckham-03.jpg"
+morephotos4: "/uploads/lerryns-peckham-04.jpg"
+morephotos5: "/uploads/lerryns-peckham-05.jpg"
+morephotos6: "/uploads/lerryns-peckham-06.jpg"
+morephotos7: "/uploads/lerryns-peckham-07.jpg"
+morephotos8: "/uploads/lerryns-peckham-08.jpg"
+spotmap: "/js/spot-maps/map-lerryns.js"
+street-address: 200 Rye Lane
+locality: Peckham
+postal-code: SE15 4UR
+particulars_open: |-
+  Mon to Fri: 08:00 – 18:00<br>
+  Sat: 10:00 – 18:00<br>
+  Sun: 10:00 – 17:00<br>
+  <br>
+  <p>Follow <a href="https://twitter.com/lerrynscafe">@lerrynscafe</a> <br>for evening hours and events.
+particulars_rail: Peckham Rye ( 0.3mi )
+photoset: setOne
+spotthumb: "/uploads/lerryns-peckham-00-thumb.jpg"
+aroundone: |-
+  <a href="/spots/the-four-quarters/">
+    <img src="/uploads/the-four-quarters-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Bar</em>
+      <h6>The Four Quarters</h6>
+      <b>Peckham</b>
+    </div>
+  </a>
+aroundtwo: |-
+  <a href="/spots/ali-baba-juice/">
+    <img src="/uploads/ali-baba-juice-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Juice Bar</em>
+      <h6>Ali Baba Juice</h6>
+      <b>Peckham</b>
+    </div>
+  </a>
+aroundthree: |-
+  <a href="/spots/bar-story/">
+    <img src="/uploads/bar-story-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Bar</em>
+      <h6>Bar Story</h6>
+      <b>Peckham</b>
+    </div>
+  </a>
+aroundfour: |-
+  <a href="/spots/brick-brewery/">
+    <img src="/uploads/brick-brewery-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Brewery & Taproom</em>
+      <h6>Brick Brewery</h6>
+      <b>Peckham</b>
+    </div>
+  </a>
+partlink_more info_lerrynscafe.com: http://lerrynscafe.com/
+Location:
+- Peckham
+Description:
+- Cafe & Bar
+Type:
+- Food & Drink
+---
+
+Located towards the Rye end of Rye Lane, Lerryn’s is hard to miss due to its bright and cheery neon-green shopfront. Inside, the pastel colour scheme is equally playful, and Lerryn and the team have worked hard to renovate this former estate agents office. Great coffee, the friendly atmosphere, and the garden out back make this another positive addition to Peckham.   
+
+The space is a coffee shop by day, serving [Climpson & Sons](http://www.climpsonandsons.com/) and an interesting food menu. Personal favourites include: *Bacon Me Crazy* (sweet cured bacon with chilli jam on sourdough or wholemeal), and the ultimate Sunday hangover brunch cure, Smash It Up (smashed avocado and tomatoes on toast), coupled with a *Bloody Great Mary*.
+
+In the evening, Lerryn’s has a fully licensed bar complete with seasonal cocktails, as well as wines and bottled beers. Try their creative twist on a classic cocktail like Gin and Ting or have beer served with a shot. The bar is popular with a younger crowd on their way out to Canavan’s and The Bussey Building, who stop in for what Lerryn’s calls *pre-drinks*.
+
+Whether it’s a coffee during the day or drinks on the weekend, the simple and bright decor, friendly people and tasty treats make Lerryn’s a favourite.

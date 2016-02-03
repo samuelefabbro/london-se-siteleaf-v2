@@ -1,0 +1,76 @@
+---
+title: F.C. Soper
+date: 2013-09-27 14:38:00 Z
+spotmainphoto: "/uploads/f-c-soper-00.jpg"
+morephotos1: "/uploads/f-c-soper-01.jpg"
+morephotos2: "/uploads/f-c-soper-02.jpg"
+morephotos3: "/uploads/f-c-soper-03.jpg"
+morephotos4: "/uploads/f-c-soper-04.jpg"
+morephotos5: "/uploads/f-c-soper-05.jpg"
+morephotos6: "/uploads/f-c-soper-06.jpg"
+morephotos7: "/uploads/f-c-soper-07.jpg"
+morephotos8: 
+spotmap: "/js/spot-maps/map-fcsoper.js"
+moreinfotext: F.C. Soper on Facebook
+street-address: 141 Evelina Rd
+locality: Nunhead
+postal-code: SE15 3HB
+particulars_open: |-
+  Monday / Closed<br>
+  Tue – Fri / 8:30 am – 5:30 pm<br>
+  Sat / 8:00 am – 5:30 pm<br>
+  Sun / 9:00 am – 2:00 pm
+particulars_rail: Nunhead
+photoset: setThree
+partlink_more info_arlo & moe on facebook: 
+spotthumb: "/uploads/f-c-soper-00-thumb-2.jpg"
+partlink_more info_f.c. soper on facebook: http://www.facebook.com/pages/F-C-Soper-Fishmongers/129733407088655
+aroundone: |-
+  <a href="http://www.london-se.com/spots/the-telegraph">
+    <img src="/uploads/the-telegraph-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Pub</em>
+      <h6>The Telegraph <br><i>(at The Earl of Derby)</i></h6>
+      <b>Telegraph Hill</b>
+    </div>
+  </a>
+aroundtwo: |-
+  <a href="http://www.london-se.com/spots/nunhead-cemetery">
+    <img src="/uploads/nunhead-cemetery-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Cemetery & Greenspace</em>
+      <h6>Nunhead Cemetery</h6>
+      <b>Nunhead</b>
+    </div>
+  </a>
+aroundthree: |-
+  <a href="http://www.london-se.com/spots/browns-of-brockley/">
+    <img src="/uploads/browns-of-brockley-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Coffee Shop</em>
+      <h6>Browns of Brockley</h6>
+      <b>Brockley</b>
+    </div>
+  </a>
+aroundfour: |-
+  <a href="http://www.london-se.com/spots/the-mayflower">
+    <img src="/uploads/mayflower-00-thumb.jpg"/>
+    <div class="thumb-details">
+      <em>Pub</em>
+      <h6>The Mayflower</h6>
+      <b>Rotherhithe</b>
+    </div>
+  </a>
+Location:
+- Nunhead
+Description:
+- Fishmonger
+Type:
+- Shopping
+---
+
+This family-run fishmonger was first opened in 1897 and has remained popular with locals as well as those from [further afield](http://www.theguardian.com/lifeandstyle/2003/jun/08/foodanddrink.features9).
+
+Staff are welcoming and more than happy to answer questions about the produce, as well as offering cooking advice. Their prices are competitive, especially when compared with supermarkets, and their stock is always fresh.
+
+Take into account the traditional open plan shop and frontage and it's apparent that FC Soper is a true favourite in SE.
